@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/pages/products.js"],"names":[],"mappings":"2FAAA,iCAEe,4BAAM","file":"component---src-pages-products-js-ab8332fcee379f545804.js","sourcesContent":["import React from \"react\"\n\nexport default () => <div>Products</div>"],"sourceRoot":""}
