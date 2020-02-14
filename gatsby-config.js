@@ -8,7 +8,6 @@ module.exports = {
   siteMetadata: {
     title: '',
   },
-  pathPrefix: 'gasty-blog',
   plugins: [
     `gatsby-transformer-remark`,
     `gatsby-plugin-emotion`,
