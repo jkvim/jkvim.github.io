@@ -27,3 +27,9 @@ jobs:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BRANCH: gh-pages # The branch the action should deploy to.
           FOLDER: public # The folder the action should deploy.
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: public
+          path: public/
