@@ -19,6 +19,7 @@ jobs:
         run: |
           npm install
           npm run build
+          ls -al ./public
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
